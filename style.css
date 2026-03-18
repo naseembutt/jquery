@@ -1,0 +1,82 @@
+
+body {
+    background-color: #5947fa96;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.container {
+    max-width: 450px;
+    width: 100%;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+/* 3. Input Group Styling */
+.input-group {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+#task-input {
+    border: 1px solid #010405;
+    border-radius: 4px 0 0 4px;
+    padding: 10px;
+}
+
+#add-btn {
+    border-radius: 0 4px 4px 0;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+}
+
+/* 4. Task List Items (No Dots/Bullets) */
+#task-list {
+    margin-top: 20px;
+}
+
+.task-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.task-text-container {
+    display: flex;
+    align-items: center;
+}
+
+.task-checkbox {
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+/*  Delete Button */
+.delete {
+    cursor: pointer;
+    font-weight: bold;
+    color: #f8f0f0;
+    font-size: 1.4rem;
+    transition: color 0.2s;
+}
+
+.delete:hover {
+    color: red;
+}
+
+/*  Toggle  */
+.completed {
+    text-decoration: line-through;
+    color: #6b0909;
+    opacity: 0.6;
+}
